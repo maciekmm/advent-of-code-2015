@@ -7,16 +7,16 @@ while true do
     break
   end
 
-	local dimensions = {}
+  local dimensions = {}
   input:gsub("%d+", function(i) table.insert(dimensions,tonumber(i)) end) --extract raw dimensions
 
   table.sort(dimensions)
 
   local areas = {
-		dimensions[1]*dimensions[2],
-		dimensions[2]*dimensions[3],
-		dimensions[1]*dimensions[3]
-	}
+    dimensions[1]*dimensions[2],
+    dimensions[2]*dimensions[3],
+    dimensions[1]*dimensions[3]
+  }
 
   -- areas[1] will the the smallest one
   material = material+areas[1]+2*(areas[1]+areas[2]+areas[3]) -- calculate total area
