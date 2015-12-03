@@ -6,3 +6,4 @@ This repository contains files for [advent of code](http://adventofcode.com/) ch
 ## Languages used
 - [Day 1](day-1/): [brainfuck](https://en.wikipedia.org/wiki/Brainfuck)
 - [Day 2](day-2/): [lua](http://www.lua.org/)
+- [Day 3](day-3/): [bash](https://www.gnu.org/software/bash/)
