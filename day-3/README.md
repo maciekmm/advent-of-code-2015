@@ -12,6 +12,7 @@ Day 3:
 ## Execution
 
 This only works with **bash** shell, thus you have to have one.
+
 1. Give execute chmod to files `chmod +x ./*.sh`
 2. Create input file with your favorite text editor or download one from [here](http://pastebin.com/MKPhezYW)
 3. Execute scripts `./houses.sh < input` or `./robo.sh < input`.
