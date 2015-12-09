@@ -16,13 +16,13 @@ min, max = sys.maxsize, 0
 
 #find all permutations
 for path in itertools.permutations(distance.keys()):
-		currentDistance = 0
-		#zip adjacent destinations
-		for fr, to in zip(path, path[1:]):
-			currentDistance += distance[fr][to]
-		if currentDistance < min:
-			min = currentDistance
-		if currentDistance > max:
-			max = currentDistance
+	currentDistance = 0
+	#zip adjacent destinations
+	for fr, to in zip(path, path[1:]):
+		currentDistance += distance[fr][to]
+	if currentDistance < min:
+		min = currentDistance
+	if currentDistance > max:
+		max = currentDistance
  
 print("Shortest path: %s \nLongest path: %s" % (min, max))
