@@ -12,3 +12,4 @@ This repository contains files for [advent of code](http://adventofcode.com/) ch
 - [Day 6](day-6/): [fortran](https://en.wikipedia.org/wiki/Fortran)
 - [Day 8](day-8/): [ruby](https://www.ruby-lang.org/en/)
 - [Day 9](day-9/): [python3](https://www.python.org)
+- [Day 10](day-10/): [d](http://dlang.org/)
