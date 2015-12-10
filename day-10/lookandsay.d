@@ -24,7 +24,7 @@ void main() {
 		    writeln("After 40 interations:");
 		    writeln(input.length);
 		}
-  }
+	}
 	writeln("After 50 iterations:");
 	writeln(input.length);
 }
