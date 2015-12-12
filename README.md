@@ -14,3 +14,4 @@ This repository contains files for [advent of code](http://adventofcode.com/) ch
 - [Day 9](day-9/): [python3](https://www.python.org)
 - [Day 10](day-10/): [d](http://dlang.org/)
 - [Day 11](day-11/): [php](https://secure.php.net/)
+- [Day 12](day-12/): [javascript](https://en.wikipedia.org/wiki/JavaScript)
